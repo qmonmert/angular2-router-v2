@@ -18,7 +18,13 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
       <li><a routerLink="activities">Activities v2</a></li>
     </ul>
 
+    <h4>First router-outlet</h4>
+
     <router-outlet></router-outlet>
+
+    <h4>Second router-outlet</h4>
+
+    <router-outlet name="animation-outlet"></router-outlet>
   `,
   directives: [ROUTER_DIRECTIVES]
 })

@@ -4,6 +4,7 @@ import { SecondpageComponent } from './secondpage/secondpage.component';
 import { ThirdpageComponent } from './thirdpage/thirdpage.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { ActivityComponent } from './activity/activity.component';
+import { AnimationComponent } from './animation/animation.component';
 
 const firstRoute = {
     path: 'first',
@@ -32,6 +33,11 @@ export const routeConfig: RouterConfig = [
                 component: ActivityComponent
             }
         ]
+    },
+    {
+        path: 'animation',
+        component: AnimationComponent,
+        outlet: 'animation-outlet'
     },
     {
         path: '**', 

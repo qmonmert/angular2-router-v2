@@ -7,3 +7,7 @@
 ### Run
 
 * ng-serve
+
+### Examples
+
+* http://localhost:4200/first(animation-outlet:animation)

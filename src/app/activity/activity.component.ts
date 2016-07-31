@@ -23,6 +23,7 @@ export class ActivityComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
+    // Prevent memory leaks
     this.sub.unsubscribe();
   }
 

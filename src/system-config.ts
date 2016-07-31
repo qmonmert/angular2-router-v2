@@ -35,6 +35,7 @@ const barrels: string[] = [
   'app/thirdpage',
   'app/activities',
   'app/activity',
+  'app/animation',
   /** @cli-barrel */
 ];
 
